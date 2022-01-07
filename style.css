@@ -1,0 +1,98 @@
+header{
+	background-color: #ff1a8c;
+	height: 80px;
+	width: 100%;
+	border-radius: 20px;
+	
+}
+
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+
+}
+label span{
+	color: yellow;
+	font-size: 50px;
+}
+p.p1{
+	font-size: 50px;
+	text-align: center;
+}
+div.part1{
+	width: 70%;
+	background: #bb9933;
+	float: left;
+	border-radius: 30px;
+}
+img.part2{
+	height: 200px;
+	width: 29%;
+	padding: 0px;
+	border-radius: 30px;
+	border: white 4px solid;
+}
+div.part3{
+	text-align: right;
+	color: yellow;
+	font-family: sans-serif;
+	background-color: #bb9933;
+	padding-right: 10px;
+	border-radius: 30px;
+
+}
+.img1{
+	height: 110px;
+	width: 11%;
+	padding: 17px;
+	border-radius: 30px;
+}
+div.part4{
+	height: 70px;
+	width: 100%;
+	color: gray;
+	text-align: center;
+	background-color: black;
+
+}
+.search1{
+	background-color: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	float: right;
+	padding: 0px;
+	margin: 20px;
+	
+}
+.input1{
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0px;
+	font-size: 16px;
+	transition: 0.4s all;
+	line-height: 40px;
+	width: 0px;
+
+}
+.bi{
+	color: #ff1a8c;
+	float: right;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+}
+.search1:hover .input1{
+	width: 250px;
+	padding: 0 6px;
+
+}
+.search1:hover .bi{
+	background-color: white;
+}
